@@ -117,7 +117,7 @@
 // }
 
 
-var num1 = 1;
-var num2 = 1;
-var total = num1 + num2;
-console.log(total)
+// var num1 = 1;
+// var num2 = 1;
+// var total = num1 + num2;
+// console.log(total)
