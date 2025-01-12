@@ -1,0 +1,20 @@
+<!doctype html>
+<head>
+<title>
+<h1>World Wide Web </h1?
+</title>
+</head>
+
+
+
+<body>
+<p> The WorldWideWeb (W3) is a wide-area <a href="#"> hypermedia </a> information retrieval initiative
+aiming to give universal access to a large universe of documents.</p>
+</br>
+<p> Everything there is online about W3 is linked directly or indirectly to this document,
+including an <a href="#"> executive summary </a> of the project. </p>
+
+</body>
+
+
+</html>
