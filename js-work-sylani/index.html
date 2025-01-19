@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+
+
+
+
+
+
+    <script>
+        // var num1 = parseInt(prompt("enter 1st number for calculate"))
+        // var user_operation = prompt("enter maths operator to calculation")
+        // var num2 = parseInt(prompt("enter the 2nd num to calculation"))
+
+        // if(user_operation=="+"){
+        //     var sum = num1+num2
+        //     alert("this is sum--> " + sum)
+        // }
+        // else if(user_operation=="-"){
+        //     var subtract = num1 - num2
+        //     alert("this is subtrat -->" + subtract)
+        // }
+        // else if(user_operation=="*"){
+        //     var multiplication = num1 * num2
+        //     alert("this is multiplication ---> "+ multiplication)
+        // }
+        // else if (user_operation=="/"){
+        //     var division = num1/num2
+        //     alert("this is division --> "+ division)
+        // }
+        // else{
+        //     alert(" this is invalid for calculation")
+        // }
+
+
+
+        // var a = prompt("please dial 1 to 5 ");
+        // if (a =="1"){
+        //     alert("welcome to ptcl");
+        // }
+        // else if (a =="2"){
+        //     alert("welcome to complaint registration automatically");
+        // }
+        // else if (a =="3"){
+        //     alert("welcome to ptcl evo chargi box menu");
+        // }
+        // else if(a =="4"){
+        //     alert("welcome to ptcl flash fiber menu");
+        // }
+        // else if (a == "5"){
+        //     alert("welcome to ptcl bill registration");
+        // }
+        // else if (a == "0"){
+        //     alert("welcome to our representative for call");
+        // }
+        // else{
+        //     alert("please press * for end call or # for main menu");
+        // }
+
+
+        // Nested If porogram 
+        // this is example for nested if compare two number and multiply bigger number with 10
+
+        // var bill1 = parseInt(prompt("enter amount of bill1"))
+        // var bill2 = parseInt(prompt("enter amount of bill2"))
+
+        // // comparison opertors >,<,>=,<=, !
+
+        // if(bill1>bill2){
+        //     if(bill1>=1000){
+        //         var discount_amount =bill1- (bill1*(2/100))
+        //         alert("discounted amount for 2% on above 1000 bill---?"+discount_amount)
+        //     }
+        //     if(bill1<=1000){
+        //     var discount_amount = bill1-(bill1*(1/100))
+        //         alert("discounted amount for 1% on above 1000 bill---?"+discount_amount)
+        //     }
+        //     else{
+        //         if(bill2>=1000){
+        //         var discount_amount = bill2-(bill2*(1/100))
+        //             alert("discounted amount for 2% on above 1000 bill"+discount_amount)
+        //         }
+        //     }
+        // }
+        
+        // else{
+        //     if(bill2>1000){
+        //         var discount_amount=bill2-(bill2*(2/100))
+        //         alert("discounted amount for 2% on avove 1000 bill--->?"+discount_amount)
+        //     }
+        // }
+
+
+        //  ATM cash Program atm pin account-amount 
+        var atm_pin = prompt("enter your 4 digit pin")
+        // var amount_withdraw = parseInt(prompt("enter your amount to withdraw"))
+        var aqeel_blance = 45000
+        var rafay_blance = 500
+
+        if (atm_pin=="4545"){
+            var amount_withdraw=parseInt(prompt("enter your amount to withdraw"))
+            if(amount_withdraw <= aqeel_blance){
+                var blance_amount = aqeel_blance - amount_withdraw
+                alert("your transcation successsfull for aqeel "+amount_withdraw)
+                alert("your transaction successful for aqeel "+blance_amount)
+            }
+            else{
+                alert("sorry you have low ballance")
+            }
+        }
+        else if (atm_pin=="9090"){
+            var amount_withdraw=parseInt(prompt("enter your amount to withdraw"))
+            if(amount_withdraw <= rafay_blance_blance){
+                var blance_amount = rafay_blance - amount_withdraw
+                alert("your transcation successsfull for rafay"+ amount_withdraw)
+                alert("your transcation successsfull for rafay "+blance_amount)
+            }
+            else{
+                alert("sorry you have low ballance")
+            }
+        }
+        else{
+            alert("please your valid pin")
+        }
+
+
+
+    </script>
+</body>
+</html>
