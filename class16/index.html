@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<script>
+// ==== loop is Js for loop basic =====
+// var start_num = 1;
+// var end_num = 10;
+
+// for(var i = start_num; i<=10; i++){
+//     document.write("counting ... --> "+i+"</br>");
+// }
+
+
+// var starting_num = 20;
+// var ending_num = 1;
+
+// for(var x=starting_num; x>0; x--){
+//     document.write("counting...-->"+x+"</br>")
+// }
+
+
+
+// var table_num = parseInt(prompt("enter table name"));
+// var end_num = parseInt(prompt("enter your table printing number"));
+
+// for(var i=1; i<=end_num; i++){
+
+//     document.write("table printing--->"+table_num+"="+(table_num*i)+"</br>")
+// }
+
+
+// var table_num = parseInt(prompt("enter table do you want"))
+// var end_num = parseInt(prompt("enter number where do you want to print"))
+
+// for(var i=20; i>=end_num; i--){
+//     document.write("table of "+table_num+"*"+i+"="+(table_num*i)+"</br>")
+// }
+
+// var table_num = parseInt(prompt("enter table do you want"))
+// var end_num = parseInt(prompt("enter number where do you want to print"))
+
+// for(var i=end_num; i>=1; i--){
+//     document.write("table of "+table_num+"*"+i+"="+(table_num*i)+"</br>")
+// }
+
+//  === with even or odd logic in loop 
+
+var table_num = parseInt(prompt("enter table do you want"))
+var end_num = parseInt(prompt("enter number where do you want to print"))
+
+for(var i=end_num; i>=1; i--){
+    var result = (table_num*i)
+if(result%2==0){
+    document.write("this is even number in table"+table_num+"--"+result);
+}
+else{
+    document.write("this is odd number in table "+table_num+"="+result);
+}
+    document.write("table of "+table_num+"*"+i+"="+result+"</br>");
+}
+
+
+
+
+</script>
+</body>
+</html>
